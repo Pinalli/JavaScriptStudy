@@ -1,0 +1,62 @@
+
+primitive types:
+
+number 
+string 
+
+
+=============Concatenation============
+
+* template string
+
+name = "Alberto"
+age = 52
+note = 9.9
+`The student ${name} with ${age} age took out note ${note}`
+
+ var n1 = 1545.7
+  n1.toFixed(2)
+'1545.70'
+
+n1.toLocaleString('pt-br',{style: 'currency',currency: 'BRL'})
+'R$ 1.545,70'
+
+n1.toLocaleString('pt-br',{style: 'currency',currency: 'USD'})
+'US$ 1.545,70'
+
+n1.toLocaleString('pt-br',{style: 'currency',currency: 'EUR'})
+'€ 1.545,70'
+
+=============ternary operator=============================
+
+var age = 30
+var r =  18 > age ? 'Major' : 'Minor'
+
+===================DOM================================
+Document Object Model 
+
+                DOM tree
+
+                  Window 
+
+     location    document     history
+
+                   html 
+
+            head           body
+
+     meta  title
+                      h1    p    p    div
+                                 
+                               strong
+======================================================
+
+div -> #
+class -> .
+
+=========EVENT REFERENCE==============================
+https://developer.mozilla.org/pt-BR/docs/Web/Events
+
+
+========image========================================
+https://www.pexels.com/pt-br
