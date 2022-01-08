@@ -4,22 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exercises Module</title>
+    <title>Times Table</title>
     <link rel="stylesheet" href="stylo.css" />
   </head>
-  <body onload="load()">
+  <body>
     <header>
-      <h1>Time to Day</h1>
+      <h1>Times Table</h1>
     </header>
     <section>
-      <div id="msg">Here is img</div>
-      <div id="img">
-        <img id="imagem" src="manha.png" alt="Photo of day" />
+      <div>
+        <p>Number: <input type="number" name="num" id="txtn">
+        <input type="button" value="Generate tables"  onclick="generate()"></p>
+      </div>
+      <div>
+        <select name="Times Table" id="seltable" size ="10">
+          <option>Type it a number above</option>
+        </select>
       </div>
     </section>
-
     <footer>
-      <p>&copy;BetoPinalli</p>
+      <p><h4>&copy;BetoPinalli</h4></p>
     </footer>
     <script src="script.js"></script>
   </body>

@@ -60,3 +60,6 @@ https://developer.mozilla.org/pt-BR/docs/Web/Events
 
 ========image========================================
 https://www.pexels.com/pt-br
+
+=========emoji======================================================
+https://unicode.org/emoji/charts/full-emoji-list.html
